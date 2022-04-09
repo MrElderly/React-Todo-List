@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(24, 21, 21);
+  color:rgb(186, 205, 224);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper { 
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+.rm {
+  background: rgb(73, 55, 55);
+  border-radius: 40%;
+  color: rgb(185, 187, 189);
+  border: 1px solid rgb(122, 121, 121);
+}
+
+.done{
+  text-decoration: line-through;
+}
+.inp {
+  background-color:  rgb(24, 21, 21);
+   border-radius: 7px;
+  border: 1px solid rgb(228, 225, 225);
+  font-size: 16px;
+  padding-left: 20px;
+  color:rgb(255, 255, 255);
+}
+.addForm{
+  margin-bottom: 10px;
+}
+.addTodo{
+  background: rgb(24, 21, 21);
+  border-radius: 4px;
+  color: rgb(185, 187, 189);
+  border: 1px solid rgb(255, 255, 255);
+  margin: .5rem;
+  font-size: 16px;
+  
+}
+.addTodo:hover{
+  background: rgb(226, 140, 140);
+  border-radius: 4px;
+  color: rgb(22, 27, 32);
+  border: 1px solid rgb(255, 255, 255);
+  margin: .5rem;
+  font-size: 18px;
+  
+}
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fcf;
+  border-color: #fcf transparent #fcf transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
